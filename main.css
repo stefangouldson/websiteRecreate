@@ -1,0 +1,72 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.62),rgba(255,255,255,0.1)),url(./wallpaper.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 22%;
+    margin-left: 5%;
+    margin-top:0.7%;
+    font-size: 80%;
+    color:#6B776B;
+    font-family: Kalvika, tahoma;
+}
+
+#left-side{
+    margin-top: 170px;
+    margin-right: 45%;
+    margin-left: 290px;
+    line-height: 100%;
+    font-size: 115%;
+    text-align: center;
+    font-family: HalisGR-Bold, sans-serif; 
+    color: rgb(231, 195, 87);
+    float: left;
+    position: relative;
+    text-shadow: 0.5px 0.5px 3.5px rgba(0, 0, 0) 
+}
+
+#right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 210px;
+    margin-top: 30px
+}
+
+#celogo{
+    width: 420px;
+    margin-bottom: 10px
+}
+
+
+
+#button{
+    background-color: #DEB94D;
+    margin-top: 10px;
+    width: 400px;
+    text-align: center;
+    font-family: PFDinTextCondPro,Arial,sans-serif;
+}
+
+#date{
+    color: #DEB94D;
+    font-size: 150%;
+}
